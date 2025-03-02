@@ -16,7 +16,7 @@ This is a simple FastAPI project that demonstrates **server-side rendering with 
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/fastapi-jinja-example.git
+git clone https://github.com/scottbromander/fastapi-jinja-example.git
 cd fastapi-jinja-example
 ```
 
