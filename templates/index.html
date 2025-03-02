@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FastAPI + Jinja2</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Fruit Jinja!</h1>
+
+      <!-- Form to select a fruit category -->
+      <form method="post">
+        <label for="category">Choose a fruit category:</label>
+        <select name="category" id="category">
+          <option value="default">Default</option>
+          <option value="tropical">Tropical</option>
+          <option value="berries">Berries</option>
+        </select>
+        <button type="submit">Get Fruits</button>
+      </form>
+
+      <!-- Rendered message -->
+      <h2>{{ data.message }}</h2>
+
+      <!-- Rendered fruit list -->
+      <ul class="fruit-list">
+        {% for fruit in data["items"] %}
+        <li>{{ fruit }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>

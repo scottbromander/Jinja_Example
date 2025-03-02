@@ -1,0 +1,82 @@
+/* Apply a clean, modern font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Center content in a nice container */
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+}
+
+/* Style the heading */
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+h2 {
+  color: #007bff;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+/* Form styling */
+form {
+  margin: 20px 0;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin: 0 15px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the fruit list */
+.fruit-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.fruit-list li {
+  background: #f8f9fa;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 16px;
+}

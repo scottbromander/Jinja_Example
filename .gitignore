@@ -1,0 +1,27 @@
+# Ignore Python virtual environment
+venv/
+.env
+
+# Byte-compiled / cached Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore static cache files (optional)
+static/*.cache
+
+# Ignore FastAPI/Uvicorn auto-generated files (if any)
+instance/
