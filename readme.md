@@ -1,5 +1,7 @@
 # FastAPI + Jinja2 Example
 
+Part of the code examples from `Web Development Concepts for Everyone` course by Scott Bromander.
+
 This is a simple FastAPI project that demonstrates **server-side rendering with Jinja2**, handling **form submissions**, and serving **static files (CSS)**. The app allows users to select different categories of fruits and dynamically updates the page content.
 
 ## 📌 Features
